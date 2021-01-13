@@ -1,0 +1,107 @@
+{
+    "counts": [
+        {
+            "id": "003",
+            "label": "사용자 수",
+            "number": 5431,
+            "icon":"icon_counter1.png",
+            "duration": 2
+        },
+        {
+            "id": "002",
+            "label": "작업 데이터",
+            "number": 6000,
+            "icon":"icon_counter2.png",
+            "duration": 3
+        },
+        {
+            "id": "001",
+            "label": "지급 포인트",
+            "number": 9256000,
+            "icon":"icon_counter3.png",
+            "duration": 2
+        }
+    ],
+    "cards": [
+        {
+            "id": "010",
+            "subTitle": "건강검진 수집데이터",
+            "number": 1959100,
+            "statusIcon":"list_blue.png",
+            "duration": 2
+        },
+        {
+            "id": "020",
+            "subTitle": "병원 요청 데이터",
+            "number": 623000,
+            "statusIcon":"list_blue.png",
+            "duration": 3
+        },
+        {
+            "id": "030",
+            "subTitle": "약처방 수집 데이터",
+            "number": 256000,
+            "statusIcon":"list_blue.png",
+            "duration": 2
+        },
+        {
+            "id": "040",
+            "subTitle": "기업 요청 데이터",
+            "number": 46000,
+            "statusIcon":"list_blue.png",
+            "duration": 2
+        },
+        {
+            "id": "050",
+            "subTitle": "기관 요청 데이터",
+            "number": 56000,
+            "statusIcon":"list_blue.png",
+            "duration": 2
+        },
+        {
+            "id": "060",
+            "subTitle": "병원 진료 수집 데이터",
+            "number": 112344,
+            "statusIcon":"list_blue.png",
+            "duration": 2
+        }
+    ],
+    "mdMenu": [
+        {
+            "id": "001",
+            "title": "건강검진 수집데이터",
+            "icon":"icon_menu1.png"
+        },
+        {
+            "id": "002",
+            "title": "수집 데이터 관리",
+            "icon":"icon_menu2.png"
+        },
+        {
+            "id": "003",
+            "title": "데이터 요청 관리",
+            "icon":"icon_menu3.png"
+        },
+        {
+            "id": "004",
+            "title": "데이터 지급 관리",
+            "icon":"icon_menu4.png"
+        },
+        {
+            "id": "005",
+            "title": "데이터 정보",
+            "icon":"icon_menu5.png"
+        },
+        {
+            "id": "006",
+            "title": "데이터 보안",
+            "icon":"icon_menu6.png"
+        },
+        {
+            "id": "007",
+            "title": "포인트 관리",
+            "icon":"icon_menu7.png"
+        }
+    ]
+
+}
