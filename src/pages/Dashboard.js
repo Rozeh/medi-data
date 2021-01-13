@@ -6,8 +6,6 @@ import DashList from "../components/Dashboard/DashList";
 
 const DashboardPage = styled.div`
   margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
 `;
 
 export default () => {

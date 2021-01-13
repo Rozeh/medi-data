@@ -5,7 +5,6 @@ import styled from "styled-components";
 const CounterBlock = styled.div`
   color: black;
   margin-top: 2rem;
-  display:flex;
   margin-left: 3rem;
   img {
       float: left;
@@ -19,7 +18,7 @@ const CounterBlock = styled.div`
     font-size: 1.2rem;
     color: gray;
     text-align: left;
-    padding-left: 2rem;
+    padding-left: 4rem;
   }
   .counterNumber {
     font-weight: 600;

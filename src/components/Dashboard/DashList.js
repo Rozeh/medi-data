@@ -19,7 +19,7 @@ const DashListBlock = styled.div`
         width: 720px;
         height: 430px;
         border-radius: 12px;
-        box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.12);
+        box-shadow: -2px -3px 8px 3px rgba(0,0,0,0.12);
     }
     .counter {
         display:flex;

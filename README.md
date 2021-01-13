@@ -1,7 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# MediBack React Front-Page
+    1. GIT 
 ## Available Scripts
 
 In the project directory, you can run:

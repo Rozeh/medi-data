@@ -15,27 +15,23 @@ const HiddenHeader = styled.div`
 `;
 
 const DashHeadBlock = styled.div`
-  padding-top: 1.5rem;
-  padding-left: 100px;
-  color: #1ea235;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 1.5rem;   
-  border-bottom: 1px solid lightgray;
-  .logo {
-    color: #1ea235;
+  margin-top: 3rem;
+  border-bottom: 2px solid lightgrey;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
 
-    a {
-      color: #1ea235;
-    }
+  .logo {
+    padding-left: 100px;
+    width: 300px;
   }
 
   .dashInput {
     outline: none;
-    width: 600px;
-    height: 48px;
-    margin-top: 0.8rem;
+    width: 40vw;
+    height: 55px;
+    margin-left: 40px;
     border: 0.1px solid lightgray;
     border-radius: 1.5rem;
     padding-left: 1.5rem;
@@ -44,19 +40,15 @@ const DashHeadBlock = styled.div`
 `;
 
 const NavGroupBlock = styled.ul`
-  width: 600px;
-  display: flex;
-  flex-direction: row;
-  margin-top: 1.3rem;
-  justify-content: space-between;
-
+  width: 680px;
   li {
     list-style-type: none;
     font-weight: bold;
     font-size: 1.5rem;
+    margin-left: 40px;
     cursor: pointer;
+    float:left;
   }
-
   a {
     text-decoration: none;
     color: #8fc31f;
@@ -76,10 +68,8 @@ export default () => {
         <div>로그인</div>
       </HiddenHeader>
       <DashHeadBlock>
-        <h2 className="logo">
-          <Link><img src="/images/logo_mediback.png" /></Link>
-        </h2>
-        <input className="dashInput" placeholder="검색어를 입력하세요" />
+          <div><Link><img src="/images/logo_mediback.png" className="logo" /></Link></div>
+          <div><input className="dashInput" placeholder="검색어를 입력하세요" /></div>
         <NavGroupBlock>
           <li>
             <Link to="/">Mediback이란</Link>
