@@ -46,7 +46,8 @@ function Users() {
         <ul>
           {users.map((user) => (
             <li key={user.id}>
-              <b>{user.name}</b>
+              <b>이름 - {user.name}</b><br />
+              <b>email - {user.email}</b>
             </li>
           ))}
           <li><button onClick={refetch}>다시 불러오기</button></li>

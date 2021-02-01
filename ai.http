@@ -1,0 +1,41 @@
+get https://jsonplaceholder.typicode.com/users
+
+# 회원 가입
+post http://3.34.88.115:8080/user/join 
+content-Type: application/json
+
+{
+  "email": "rozeh@test.com",
+  "password": "roze",
+  "name": "tester",
+  "phoneNumber": "0101111111",
+  "birthDate": "200000-1",
+  "isProtector": 0
+}
+
+
+###로그인
+
+get http://3.34.88.115:8080/user/login
+content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "test"
+}
+
+###
+
+# 환자 검색
+http://3.34.88.115:8080/user/patients?email=test@test.com 
+
+###
+
+# 유저 진료이력 검색
+get https://3.34.88.115:8080/user/checkups-history?email=test@test.com
+Authorization: Basic dGVzdEB0ZXN0LmNvbTokMmEkMTAkWm5sSjJhLzd2dW5Ccnl0cWdxUzVJZUtRY0ZyU1d3anZOQlpoanNqQzd4TzdrbjYudm83dzY=
+
+###
+# 유저 진료이력 검색
+get http://3.34.88.115:8080/user/image?email=test1@test.com&date=2020-02-01
+Authorization: Basic dGVzdEB0ZXN0LmNvbTokMmEkMTAkWm5sSjJhLzd2dW5Ccnl0cWdxUzVJZUtRY0ZyU1d3anZOQlpoanNqQzd4TzdrbjYudm83dzY=
